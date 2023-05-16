@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -24,15 +27,99 @@
   color: white;
 }
 
+nav a{
+  color:white;
+}
+
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: #282c34;
+  text-decoration: none;
 }
+label{
+margin-bottom: 10px;
+margin-top: 20px;
+margin-left: 10px;
+}
+.auth-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+form{
+display: flex;
+flex-direction: column;
+}
+button {
+  width: 80px;
+  height:40px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(106, 106, 230);
+  box-shadow: 2px 2px 8px gray;
+}
+button:hover{
+  transform: translateY(-2px);
+}
+input{
+  height: 36px;
+  width: 20vw;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 7px;
+}
+#message{
+  height: 36px;
+  width: 32vw;
+}
+strong{
+  color: rgb(41, 41, 131);
+  margin-right: 20px;
+}
+em{
+  margin-right: 20px;
+  color: #631483;
+}
+p{
+text-align: center;
+}
+img{
+  display: flex;
+  justify-content: center;
+  width: 25px;
+}
+
+.disallow-chat{
+  display: flex;
+  flex-direction: row;
+}
+
+.disallow-chat img{
+  width: 30vw;
+  border-radius: 25px;
+}
+
+.disallow-text{
+  display: flex;
+  flex-direction: column;
+  margin-left:5vw;
+}
+
+.disallow-chat p{
+  font-size: 30px;
+}
+.disallow-chat h1{
+  font-size: 50px;
+}
+
+

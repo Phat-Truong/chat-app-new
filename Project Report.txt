@@ -1,0 +1,9 @@
+Project Report:
+And now what I did with my Chat App:
+- I deploy it by build folder, not from Github.
+- I add some headings, paragraphs, images +CSS for styling.
+I have added an emoticon mapping that can be used by typing on the keyboard.
+That's all what I done.
+I really like when making this app.
+
+Thanks for reading!
