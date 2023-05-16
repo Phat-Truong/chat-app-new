@@ -1,3 +1,5 @@
+Phat Truong - Chat app:
+
 Project Report:
 And now what I did with my Chat App:
 - I deploy it by build folder, not from Github.
